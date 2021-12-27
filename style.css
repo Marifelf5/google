@@ -86,7 +86,7 @@ main .main-input{
     border-radius: 20px;
     margin-top:20px;
     border: 1px solid #dfe1e5;
-
+outline: #dfe1e5;
 
 }
 
@@ -95,10 +95,7 @@ main .main-input:hover{
    box-shadow: 0 1px 4px 0 darkgray;
 }
 
-main .main-input input:focus-visible{
-    color:white;
-    background-color: white;
-}
+
 
 
 
@@ -134,7 +131,7 @@ main .main-input input:focus-visible{
 }
 
 .boton2:hover{
-    box-shadow: 2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 footer {
@@ -168,4 +165,9 @@ footer {
 
  footer ul li a{
      margin:10px;
+     color: #70757a;
+ }
+
+ footer ul li a:hover{
+    text-decoration:underline;
  }
