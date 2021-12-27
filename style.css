@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    margin-top: 25px;
+    width:100%;
+    height: 50px;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;  
+   
+}
+
+header nav .nav-right-section{
+   width: 250px; 
+   height: auto;
+   display:flex;
+   list-style: none;
+   justify-content: center;
+   align-items: center;
+}
+
+
+header .nav-right-section a {
+    margin-right: 10px;
+    color:black;
+
+}
+
+header nav .nav-right-section a:hover{
+    text-decoration:underline;
+}
+
+ nav .nav-right-section .menu-icon{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width:25px;
+    height: 25px;
+
+}
+
+.avatar{
+    border-radius: 50%;
+    width:35px;
+    height: 35px;
+    margin-left:10px;
+    
+}
+
+
+
+
+main{
+    margin-top: 80px;
+    text-align: center;
+}
+
+main .main-logo{
+    width:530px;
+    margin: 0 auto;
+}
+
+main .main-logo img{
+    width:500px;
+}
+
+main .main-input{
+    width: 545px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:20px;
+    border: 1px solid #dfe1e5;
+
+
+}
+
+
+main .main-input:hover{
+   box-shadow: 0 1px 4px 0 darkgray;
+}
+
+main .main-input input:focus-visible{
+    color:white;
+    background-color: white;
+}
+
+
+
+
+
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton1, .boton2{
+    background-color:#f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.boton1:hover{
+    box-shadow: black;
+}
+
+.boton2:hover{
+    box-shadow: 2px solid black;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-size: 13px;
+    border-top: 1px solid #dadce0;
+ }
+
+ footer ul {
+     margin: 15px;
+    display:flex ;
+     list-style: none;
+    padding-left: 0;
+ }
+
+ footer .footer-left{
+     justify-content: left;
+ }
+
+ footer .footer-rigth{
+     display: flex;
+    justify-content:flex-end!important;
+ }
+
+ footer ul li a{
+     margin:10px;
+ }
